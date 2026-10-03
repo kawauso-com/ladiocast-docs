@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "update": "npx npm-check-updates --interactive"
+  },
+  "type": "module"
+}
