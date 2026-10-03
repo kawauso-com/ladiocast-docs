@@ -8,5 +8,6 @@
     "preview": "vitepress preview",
     "update": "npx npm-check-updates --interactive"
   },
-  "type": "module"
+  "type": "module",
+  "version": "0.0.1"
 }
