@@ -1,0 +1,52 @@
+name: Bug report / 不具合の報告
+description: Report a problem with Ladiocast or this site / Ladiocast またはこのサイトの問題を報告する
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Crashes are best reported from TestFlight ("Send Beta Feedback"), which attaches the crash log automatically.
+        クラッシュは TestFlight の「ベータ版のフィードバックを送信」から報告してください(クラッシュログが自動で添付されます)。
+
+        **Do not paste passwords, stream keys or server addresses you want to keep private.**
+        **パスワード・ストリームキー・公開したくないサーバーアドレスは貼り付けないでください。**
+  - type: input
+    id: version
+    attributes:
+      label: Ladiocast version (build) / バージョン(ビルド)
+      placeholder: "1.0.0-alpha.0 (1)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and Mac model / macOS と Mac の機種
+      placeholder: "macOS 15.1, MacBook Pro (Apple silicon)"
+    validations:
+      required: true
+  - type: dropdown
+    id: streamer
+    attributes:
+      label: Streamer type / ストリーマーの種類
+      multiple: true
+      options: [Icecast, SHOUTcast, RTMP, Mixer / Audio, Other / その他]
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 何が起きましたか
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 期待する動作
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console log / コンソールのログ
+      description: Messages written by Ladiocast in Console.app / Console.app に出力された Ladiocast のメッセージ
+      render: text

@@ -1,0 +1,15 @@
+name: Feature request / 要望
+description: Suggest an idea or improvement / 機能の追加や改善の提案
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like? / どのような機能がほしいですか
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you need it? / なぜ必要ですか
+      description: Your use case helps us understand the request. / 使い方を教えていただけると要望の意図が伝わります。
