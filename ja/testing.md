@@ -12,7 +12,7 @@ Ladiocast 1.0.0はアルファ版です。機能が変更される場合があ�
 ## 参加方法
 
 1. Mac App StoreからTestFlightをインストールします。
-2. MacでLadiocastのTestFlight公開リンクを開き、招待を受け入れます。
+2. Macで[LadiocastのTestFlight公開リンク](https://testflight.apple.com/join/pcEXNUc1)を開き、招待を受け入れます。
 3. TestFlightからLadiocastをインストールします。初めてオーディオ入力が必要になったとき、Ladiocastはマイクの使用許可を求めます。
 
 TestFlightのビルドは90日で期限切れになります。新しいビルドが配信されると、TestFlightが通知します。

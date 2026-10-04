@@ -12,7 +12,7 @@ Ladiocast 1.0.0 is in alpha. Features may change, and you may run into bugs. Tha
 ## How to join
 
 1. Install TestFlight from the Mac App Store.
-2. Open the Ladiocast public TestFlight link on your Mac and accept the invitation.
+2. Open the [Ladiocast public TestFlight link](https://testflight.apple.com/join/pcEXNUc1) on your Mac and accept the invitation.
 3. Install Ladiocast from TestFlight. Ladiocast asks for permission to use the microphone the first time it needs an audio input.
 
 TestFlight builds expire after 90 days. TestFlight notifies you when a new build is available.
