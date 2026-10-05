@@ -2,13 +2,18 @@
 
 ## Disable to boot after configuration modified
 
-Delete the user configuration and restart it.
+Quit Ladiocast, delete the user configuration and start it again.
 
-```sh
-$ defaults delete com.kawauso.Ladiocast
-```
+Ladiocast runs in the App Sandbox, so its configuration is kept in its container, `~/Library/Containers/com.kawauso.LadioCast` (the bundle identifier is `com.kawauso.LadioCast`, with a capital `C`). The easiest way is to move the container to the Trash in Finder:
+
+1. In Finder, choose "Go to Folder..." from the Go menu (Shift-Command-G) and enter `~/Library/Containers/`.
+2. Move the folder `com.kawauso.LadioCast` to the Trash.
 
 You will get the initial state.
+
+::: tip
+Deleting the container from Terminal (`rm`) may be refused with "Operation not permitted", even with `sudo`, unless Terminal is allowed to access other apps' data (System Settings, Privacy & Security, Full Disk Access). `defaults delete com.kawauso.LadioCast` does not help either: for a sandboxed app, `defaults` may report that the domain is not found.
+:::
 
 ## Cannot connect over TLS (SSL)
 

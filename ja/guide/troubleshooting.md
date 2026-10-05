@@ -2,13 +2,18 @@
 
 ## 設定変更後に起動させることができなくなった場合
 
-ユーザ設定を削除して立ち上げ直してみて下さい。
+Ladiocastを終了して、ユーザ設定を削除してから、立ち上げ直してみて下さい。
 
-```sh
-$ defaults delete com.kawauso.Ladiocast
-```
+LadioCastはApp Sandboxの中で動作するため、設定は、コンテナ`~/Library/Containers/com.kawauso.LadioCast`に保存されています(Bundle IDは`com.kawauso.LadioCast`で、`C`は大文字です)。Finderでコンテナをゴミ箱に入れるのが、いちばん簡単な方法です。
+
+1. Finderの「移動」メニューから「フォルダへ移動...」(Shift-Command-G)を選び、`~/Library/Containers/`と入力します。
+2. フォルダ`com.kawauso.LadioCast`をゴミ箱に入れます。
 
 インストール直後の状態に戻ります。
+
+::: tip
+ターミナルからコンテナを削除(`rm`)しようとすると、ターミナルに他のアプリのデータへのアクセスが許可されていない限り、`sudo`を付けても「Operation not permitted」で拒否されることがあります(システム設定、プライバシーとセキュリティ、フルディスクアクセス)。また、サンドボックスのアプリでは、`defaults delete com.kawauso.LadioCast`でも「ドメインが見つからない」と表示されることがあり、削除できません。
+:::
 
 ## TLS(SSL)で接続できない場合
 
