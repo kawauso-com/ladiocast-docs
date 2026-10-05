@@ -23,7 +23,7 @@ If Ladiocast shows "Failed to connect" when you connect to a server over TLS, ch
 
 - Enter the host name, not the IP address. Ladiocast checks the server certificate against the name you enter, and a certificate issued for a host name does not match an IP address.
 - The host name you enter must be one of the names in the certificate.
-- The certificate must be issued by a publicly trusted certificate authority. Ladiocast verifies it with its own bundled list of root certificates (Mozilla's), not with the macOS Keychain. A self-signed certificate, a certificate issued by a private certificate authority (even if you have added it to the Keychain), and an expired certificate are rejected.
+- The certificate must be trusted by macOS. Ladiocast reads the root certificates that macOS trusts when it starts, and verifies the server certificate with them. A certificate issued by a private certificate authority, or a self-signed certificate, is accepted only if you have set it to be trusted for SSL in Keychain Access (Get Info, Trust, Secure Sockets Layer (SSL): Always Trust); just adding it to the Keychain is not enough. Restart Ladiocast after changing the trust settings. An expired certificate is rejected.
 - Set the TLS port of the server, not the plain-text port.
 - Make sure the date and time of your Mac are correct.
 
