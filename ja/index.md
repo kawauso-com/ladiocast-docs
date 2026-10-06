@@ -12,6 +12,9 @@ hero:
       text: ガイド
       link: /ja/guide/
     - theme: alt
+      text: ブログ
+      link: /ja/blog/
+    - theme: alt
       text: 変更履歴
       link: /ja/changelog
   tagline: アルファテストを開始しました。TestFlightからご参加ください。

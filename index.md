@@ -12,6 +12,9 @@ hero:
       text: Guide
       link: /guide/
     - theme: alt
+      text: Blog
+      link: /blog/
+    - theme: alt
       text: ChangeLog
       link: /changelog
   tagline: Alpha testing is now open. Join through TestFlight.

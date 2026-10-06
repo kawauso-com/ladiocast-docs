@@ -1,3 +1,6 @@
+import fs from 'node:fs'
+import path from 'node:path'
+import matter from 'gray-matter'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -28,6 +31,11 @@ export default defineConfig({
               { text: 'AppleScript', link: '/guide/applescript' },
               { text: 'In error cases', link: '/guide/troubleshooting' },
             ],
+          },
+          {
+            text: 'Blog',
+            link: '/blog/',
+            items: generateSidebar(path.resolve(__dirname, '../blog'), '/blog/')
           },
           {
             text: 'Reference',
@@ -64,6 +72,11 @@ export default defineConfig({
             ],
           },
           {
+            text: 'ブログ',
+            link: '/ja/blog/',
+            items: generateSidebar(path.resolve(__dirname, '../ja/blog'), '/ja/blog/')
+          },
+          {
             text: 'リファレンス',
             items: [
               { text: 'アルファテスト', link: '/ja/testing' },
@@ -76,7 +89,13 @@ export default defineConfig({
         ],
         docFooter: { prev: '前のページ', next: '次のページ' },
         outline: { label: '目次' },
-        lastUpdated: { text: '最終更新' },
+        lastUpdated: {
+          text: '最終更新',
+          formatOptions: {
+            dateStyle: 'long',
+            forceLocale: true,
+          },
+        },
         returnToTopLabel: 'トップへ戻る',
         sidebarMenuLabel: 'メニュー',
         darkModeSwitchLabel: '外観',
@@ -92,3 +111,37 @@ export default defineConfig({
     ],
   },
 })
+
+function generateSidebar(dirPath: string, basePath: string) {
+  const files = fs.readdirSync(dirPath)
+  const items = [] as { text: string; link: string; date: Date }[]
+  for (const file of files) {
+    // _で始まらないMarkdownファイルで index.md 以外を対象にする
+    if (file.startsWith('_') || !file.endsWith('.md') || file == 'index.md') {
+      continue
+    }
+
+    const fullPath = path.join(dirPath, file)
+    const fileContent = fs.readFileSync(fullPath, 'utf-8')
+
+    // gray-matterでフロントマターと本文をパース
+    const { data } = matter(fileContent)
+
+    // 拡張子を除いたファイル名をリンク用に使用
+    const fileNameWithoutExt = path.basename(file, '.md')
+
+    // フロントマターに title または date がない場合のフォールバック（デフォルト値）
+    const text = `${data.title ?? fileNameWithoutExt}`
+    const date = data.date ? new Date(data.date) : new Date(0) // 日付がないものは最古扱い
+
+    items.push({
+      text,
+      link: `${basePath}${fileNameWithoutExt}`,
+      date,
+    })
+  }
+  return items
+    .sort((a, b) => a.date.getTime() - b.date.getTime()) // date（日付）でソート：古い順（昇順）
+    .map(({ text, link }) => ({ text, link })) // VitePressが求める形式（textとlinkのみ）に整形
+    .reverse() // 逆順にして新しい順（降順）にする
+}
