@@ -14,5 +14,5 @@ hero:
     - theme: alt
       text: 変更履歴
       link: /ja/changelog
-  tagline: アルファテストを準備中です。
+  tagline: アルファテストを開始しました。TestFlightからご参加ください。
 ---

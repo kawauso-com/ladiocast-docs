@@ -14,5 +14,5 @@ hero:
     - theme: alt
       text: ChangeLog
       link: /changelog
-  tagline: Alpha testing is coming soon.
+  tagline: Alpha testing is now open. Join through TestFlight.
 ---
