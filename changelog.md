@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.0.0-alpha.0 | Updated the libopus library to version 1.6.1. |
 | 1.0.0-alpha.0 | Fixed a bug that a monaural input device was not automatically mapped to both the left and right channels. |
 | 1.0.0-alpha.0 | Fixed a bug that disconnecting just after a communication error could hang. |
 | 1.0.0-alpha.0 | Removed the Character Set selection from Icecast Streamer. |
