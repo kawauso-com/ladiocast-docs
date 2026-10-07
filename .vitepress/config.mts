@@ -48,6 +48,11 @@ export default defineConfig({
             ],
           },
         ],
+        lastUpdated: {
+          formatOptions: {
+            dateStyle: 'long',
+          },
+        },
       },
     },
     ja: {
