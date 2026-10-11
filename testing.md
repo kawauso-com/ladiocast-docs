@@ -1,6 +1,6 @@
-# Alpha Testing
+# Beta Testing
 
-Ladiocast 1.0.0 is in alpha. Features may change, and you may run into bugs. Thank you for helping to test it.
+Ladiocast 1.0.0 is in beta. Features may change, and you may run into bugs. Thank you for helping to test it.
 
 ## Requirements
 
@@ -19,8 +19,9 @@ TestFlight builds expire after 90 days. TestFlight notifies you when a new build
 
 ## What to test
 
-The 1.0.0 alpha includes these changes. Reports on them are especially helpful. See the [ChangeLog](/changelog) for the full list.
+The 1.0.0 beta includes these changes. Reports on them are especially helpful. See the [ChangeLog](/changelog) for the full list.
 
+- Improved audio quality of the mixer
 - RTMP Streamer rewritten to use librtmp, with HE-AAC and MP3 added to AAC
 - Monaural input devices mapped to both left and right channels
 - The default system sample rate changed from 44,100 Hz to 48,000 Hz
