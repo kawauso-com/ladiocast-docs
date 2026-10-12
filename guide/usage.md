@@ -26,9 +26,11 @@ In input volume slider scales, the left end indicates minus infinite dB, the rig
 
 Select “Preferences” in the menu bar to show Ladiocast preferences window.
 
-If you increase the “Sample Frame Length” value, latency in the audio processing of Ladiocast will get longer, the CPU load average will get lower. If you decrease, the latency will get shorter, the load average will get higher.
+If you increase the “Sample Frame Length” value, latency in the audio processing of Ladiocast will get longer, the CPU load average will get lower. If you decrease, the latency will get shorter, the load average will get higher, and the audio is more likely to drop out for a moment (heard as a click) while the Mac is busy. The default is 256. At 48000 Hz, the latency inside Ladiocast is about 27 ms with 256 and about 13 ms with 128. Choose 128 or less only if you need the shorter latency, and check for clicks on your Mac before going on air.
 
 The “System Sample Rate” is used as internal sample rate. There is possibility to get finer audio processing, which also depends on rates of inputs devices.
+
+The default of the system sample rate was changed from 44100 to 48000. It is applied only when the preferences have not been saved yet, so existing users keep their current value. The Ogg Vorbis and Ogg PCM formats use the system sample rate as their encoding sample rate, so set it to 44100 in the preferences panel if you need to stream with 44100.
 
 The “Number of Streamers”is the maximum streamers available simultaneously. The more number specified, the higher CPU load will get.
 
