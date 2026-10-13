@@ -21,13 +21,15 @@ TestFlight builds expire after 90 days. TestFlight notifies you when a new build
 
 The 1.0.0 beta includes these changes. Reports on them are especially helpful. See the [ChangeLog](/changelog) for the full list.
 
-- Improved audio quality of the mixer
+- Improved audio quality of the mixer: every input and output device is now matched to Ladiocast's own clock, so long sessions with different devices, such as a USB microphone and Bluetooth headphones, should stay free of clicks and a growing delay
 - RTMP Streamer rewritten to use librtmp, with HE-AAC and MP3 added to AAC
 - Monaural input devices mapped to both left and right channels
 - The default system sample rate changed from 44,100 Hz to 48,000 Hz
 - Running as a universal app on Intel and Apple silicon Macs
 
 Also, anything you do with Ladiocast regularly, such as long broadcasts, multiple streamers at once and reconnecting after a network error, is worth testing.
+
+If you try a smaller Sample Frame Length than the default 256 in Preferences to shorten the latency, please tell us whether you hear clicks, together with your Mac model.
 
 ## Feedback
 
