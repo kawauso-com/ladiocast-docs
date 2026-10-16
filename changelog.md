@@ -2,6 +2,8 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.0.0-rc.0 | Fixed a bug that the app crashed at launch when a selected audio device failed to start (set to No Device with an alert). |
+| 1.0.0-rc.0 | Added German, French, Spanish, Italian, Korean, Brazilian Portuguese, Simplified Chinese and Traditional Chinese localizations. |
 | 1.0.0-beta.0 | Improved the audio quality of the mixer. |
 | 1.0.0-alpha.0 | Updated the libopus library to version 1.6.1. |
 | 1.0.0-alpha.0 | Fixed a bug that a monaural input device was not automatically mapped to both the left and right channels. |

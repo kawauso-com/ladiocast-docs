@@ -1,10 +1,10 @@
 # Privacy Policy
 
-Last updated: October 12, 2026
+Last updated: October 16, 2026
 
 Ladiocast is provided by kawauso.com as a free app, at no cost, and is intended for use as is.
 
-This page informs you of my policies regarding the collection, use and disclosure of personal information when you use Ladiocast, including the alpha and beta versions distributed through TestFlight.
+This page informs you of my policies regarding the collection, use and disclosure of personal information when you use Ladiocast, including the alpha, beta and release candidate versions distributed through TestFlight.
 
 ## Information collection and use
 

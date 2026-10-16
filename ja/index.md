@@ -17,5 +17,5 @@ hero:
     - theme: alt
       text: 変更履歴
       link: /ja/changelog
-  tagline: ベータテストを開始しました。TestFlightからご参加ください。
+  tagline: リリース候補版のテストを開始しました。TestFlightからご参加ください。
 ---
