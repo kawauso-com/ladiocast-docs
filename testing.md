@@ -22,6 +22,7 @@ TestFlight builds expire after 90 days. TestFlight notifies you when a new build
 The 1.0.0 release candidate includes these changes. Reports on them are especially helpful. See the [ChangeLog](/changelog) for the full list.
 
 - Eight new languages: German, French, Spanish, Italian, Korean, Brazilian Portuguese, Simplified Chinese and Traditional Chinese. Ladiocast follows the language of your Mac
+- Help menu documents fixed: ReadMe and ChangeLog now open in English in the languages that have no translation of their own, instead of a blank window
 - A crash at launch fixed: when an audio device selected last time cannot be started, Ladiocast now shows an alert, sets that device to No Device and keeps running
 - Improved audio quality of the mixer: every input and output device is now matched to Ladiocast's own clock, so long sessions with different devices, such as a USB microphone and Bluetooth headphones, should stay free of clicks and a growing delay
 - RTMP Streamer rewritten to use librtmp, with HE-AAC and MP3 added to AAC
@@ -31,7 +32,7 @@ The 1.0.0 release candidate includes these changes. Reports on them are especial
 
 Also, anything you do with Ladiocast regularly, such as long broadcasts, multiple streamers at once and reconnecting after a network error, is worth testing.
 
-If you use Ladiocast in one of the new languages, please look through the menus, windows and messages, and tell us about text that is cut off, overlaps or reads unnaturally, with a screenshot if you can. If you see the alert about a device that failed to start, please send us its full text, together with the device and how it was connected.
+If you use Ladiocast in one of the new languages, please look through the menus, windows and messages, open ReadMe and ChangeLog from the Help menu, and tell us about text that is cut off, overlaps or reads unnaturally, with a screenshot if you can. If you see the alert about a device that failed to start, please send us its full text, together with the device and how it was connected.
 
 If you try a smaller Sample Frame Length than the default 256 in Preferences to shorten the latency, please tell us whether you hear clicks, together with your Mac model.
 

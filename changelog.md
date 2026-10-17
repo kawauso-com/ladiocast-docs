@@ -2,6 +2,8 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.0.0-rc.1 | Fixed a bug that ReadMe and ChangeLog in the Help menu were blank when the app was launched in a language other than English or Japanese (English is now shown). |
+| 1.0.0-rc.1 | Unified the wording of the Main and Aux output labels across the localizations. |
 | 1.0.0-rc.0 | Fixed a bug that the app crashed at launch when a selected audio device failed to start (set to No Device with an alert). |
 | 1.0.0-rc.0 | Added German, French, Spanish, Italian, Korean, Brazilian Portuguese, Simplified Chinese and Traditional Chinese localizations. |
 | 1.0.0-beta.0 | Improved the audio quality of the mixer. |
