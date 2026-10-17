@@ -2,6 +2,8 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.0.0-rc.2 | Added an error message for RTMPE and RTMPTE URLs in RTMP Streamer, which are not supported. |
+| 1.0.0-rc.2 | Removed the leftover Character Set field from the Icecast Streamer window. |
 | 1.0.0-rc.1 | Fixed a bug that ReadMe and ChangeLog in the Help menu were blank when the app was launched in a language other than English or Japanese (English is now shown). |
 | 1.0.0-rc.1 | Unified the wording of the Main and Aux output labels across the localizations. |
 | 1.0.0-rc.0 | Fixed a bug that the app crashed at launch when a selected audio device failed to start (set to No Device with an alert). |

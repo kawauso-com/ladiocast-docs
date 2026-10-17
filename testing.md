@@ -25,7 +25,8 @@ The 1.0.0 release candidate includes these changes. Reports on them are especial
 - Help menu documents fixed: ReadMe and ChangeLog now open in English in the languages that have no translation of their own, instead of a blank window
 - A crash at launch fixed: when an audio device selected last time cannot be started, Ladiocast now shows an alert, sets that device to No Device and keeps running
 - Improved audio quality of the mixer: every input and output device is now matched to Ladiocast's own clock, so long sessions with different devices, such as a USB microphone and Bluetooth headphones, should stay free of clicks and a growing delay
-- RTMP Streamer rewritten to use librtmp, with HE-AAC and MP3 added to AAC
+- RTMP Streamer rewritten to use librtmp, with HE-AAC and MP3 added to AAC. RTMPE URLs are not supported and now show an error message; use rtmp:// or rtmps://
+- Character Set field removed from the Icecast Streamer window
 - Monaural input devices mapped to both left and right channels
 - The default system sample rate changed from 44,100 Hz to 48,000 Hz
 - Running as a universal app on Intel and Apple silicon Macs
