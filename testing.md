@@ -1,10 +1,10 @@
 # Testing
 
-The release candidate testing of Ladiocast 1.0.0 has finished, and Ladiocast 1.0.0 is available on the Mac App Store. Thank you to everyone who helped to test it. No test is open right now. When the next test starts, it will be announced on the [blog](/blog/) and the instructions below will apply. A test version may have unfinished features, and you may run into bugs.
+Ladiocast 1.1.0 is in beta, with the new Loopback Streamer. See the [blog post](/blog/ladiocast-1.1.0-beta.0-released) for the changes to try. Ladiocast 1.0.0 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
 
 ## Requirements
 
-- macOS 13 Ventura or later
+- macOS 13 Ventura or later (Loopback Streamer needs macOS 14.2 or later)
 - An Intel or Apple silicon Mac
 - The [TestFlight](https://apps.apple.com/app/testflight/id899247664) app from the Mac App Store
 - Audio input devices and, for streaming, an Icecast, SHOUTcast or RTMP server of your own

@@ -2,6 +2,8 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.1.0-beta.0 | Added Loopback Streamer, which passes the audio to other applications on this Mac as an input device named "Ladiocast Loopback Streamer", instead of sending it to a server. Only one streamer can be Loopback at a time (macOS 14.2 and later). |
+| 1.1.0-beta.0 | Added the usage description of system audio recording, which Loopback Streamer needs. |
 | 1.0.0 | Released in the Mac App Store. |
 | 1.0.0-rc.2 | Added an error message for RTMPE and RTMPTE URLs in RTMP Streamer, which are not supported. |
 | 1.0.0-rc.2 | Removed the leftover Character Set field from the Icecast Streamer window. |

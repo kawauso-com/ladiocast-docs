@@ -1,10 +1,10 @@
 # テスト
 
-Ladiocast 1.0.0のリリース候補版のテストは終了し、Ladiocast 1.0.0をMac App Storeで配信しています。テストにご協力いただいた皆さま、ありがとうございました。現在、開いているテストはありません。次のテストを始めるときは[ブログ](/ja/blog/)でお知らせし、以下の手順で参加できます。テスト版には未完成の機能があり、不具合に遭遇することがあります。
+Ladiocast 1.1.0のベータ版のテストを行っています。新しいLoopbackストリーマーを追加しました。試していただきたい変更点は[ブログ記事](/ja/blog/ladiocast-1.1.0-beta.0-released)をご覧ください。Ladiocast 1.0.0は引き続きMac App Storeで配信しています。テスト版には未完成の機能があり、不具合に遭遇することがあります。テストへのご協力をお願いします。
 
 ## 必要な環境
 
-- macOS 13 Ventura以降
+- macOS 13 Ventura以降(LoopbackストリーマーにはmacOS 14.2以降が必要)
 - IntelまたはApple siliconのMac
 - Mac App Storeの[TestFlight](https://apps.apple.com/jp/app/testflight/id899247664)アプリ
 - オーディオ入力デバイス。配信する場合は、ご自身のIcecast、SHOUTcast、RTMPサーバー
