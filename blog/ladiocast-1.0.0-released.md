@@ -5,7 +5,9 @@ date: 2026-10-18
 
 # Ladiocast 1.0.0 Released
 
-Ladiocast 1.0.0 is now available in the Mac App Store. It is the first update since 0.13.0 in October 2018. Thank you very much for waiting so patiently, and thank you to everyone who took part in the TestFlight test.
+![Ladiocast 1.0.0 released in MAS](/images/Ladiocast-1.0.0-released-in-MAS.png)
+
+Ladiocast 1.0.0 is now available in the [Mac App Store](https://apps.apple.com/app/ladiocast/id411213048). It is the first update since 0.13.0 in October 2018. Thank you very much for waiting so patiently, and thank you to everyone who took part in the TestFlight test.
 
 The release candidate test is over. There is no change from 1.0.0-rc.2 in the app itself.
 
