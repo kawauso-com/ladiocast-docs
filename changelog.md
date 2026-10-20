@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.0.0 | Released in the Mac App Store. |
 | 1.0.0-rc.2 | Added an error message for RTMPE and RTMPTE URLs in RTMP Streamer, which are not supported. |
 | 1.0.0-rc.2 | Removed the leftover Character Set field from the Icecast Streamer window. |
 | 1.0.0-rc.1 | Fixed a bug that ReadMe and ChangeLog in the Help menu were blank when the app was launched in a language other than English or Japanese (English is now shown). |

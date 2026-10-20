@@ -10,10 +10,10 @@ tell application "Ladiocast" to connect
 tell application "Ladiocast" to disconnect
 ```
 
-The metadata song field can be changed by the AppleScript interface with a property name "metadata song". For example, you can copy the title of the tune you playing in iTunes to Ladiocast metadata by executing the following script:
+The metadata song field can be changed by the AppleScript interface with a property name "metadata song". For example, you can copy the title of the tune you playing in Music to Ladiocast metadata by executing the following script:
 
 ```applescript
-tell application "iTunes" to set currentTrack to name of current track
+tell application "Music" to set currentTrack to name of current track
 tell application "Ladiocast" to set metadata song to currentTrack
 ```
 

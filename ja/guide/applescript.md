@@ -10,10 +10,10 @@ tell application "Ladiocast" to connect
 tell application "Ladiocast" to disconnect
 ```
 
-Ladiocastのメタデータの曲情報フィールドは属性"metadata song"としてAppleScriptから参照し変更することができます。 例えばiTunesの現在の曲名をLadiocastのメタデータにコピーして終了するAppleScriptは
+Ladiocastのメタデータの曲情報フィールドは属性"metadata song"としてAppleScriptから参照し変更することができます。 例えばミュージックの現在の曲名をLadiocastのメタデータにコピーして終了するAppleScriptは
 
 ```applescript
-tell application "iTunes" to set currentTrack to name of current track
+tell application "Music" to set currentTrack to name of current track
 tell application "Ladiocast" to set metadata song to currentTrack
 ```
 

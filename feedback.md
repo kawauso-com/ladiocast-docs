@@ -6,11 +6,13 @@ onMounted(() => { address.value = ['ladiocast', 'kawauso.com'].join('@') })
 
 # Feedback
 
-Thank you for testing Ladiocast. Please use the channel that fits your report best.
+Thank you for using Ladiocast. Please use the channel that fits your report best.
 
-## Crashes: TestFlight
+## Crashes
 
-If Ladiocast crashes, send feedback from TestFlight ("Send Beta Feedback"). The build number, your Mac's details and the crash log are attached automatically.
+If Ladiocast crashes, attach the crash report to an issue or an email (see below). Open Console (`/Applications/Utilities/Console.app`), choose "Crash Reports" in the sidebar, and select the latest report of Ladiocast.
+
+If you are testing a TestFlight build, send feedback from TestFlight ("Send Beta Feedback") instead. The build number, your Mac's details and the crash log are attached automatically.
 
 ## Bugs and requests: GitHub Issues
 

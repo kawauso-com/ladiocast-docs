@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Crashes are best reported from TestFlight ("Send Beta Feedback"), which attaches the crash log automatically.
-        クラッシュは TestFlight の「ベータ版のフィードバックを送信」から報告してください(クラッシュログが自動で添付されます)。
+        For a crash, please attach the crash report from Console > Crash Reports. If you are testing a TestFlight build, use "Send Beta Feedback" in TestFlight, which attaches the crash log automatically.
+        クラッシュの場合は、コンソールの「クラッシュレポート」にあるレポートを添付してください。TestFlight のビルドをテストしている場合は、TestFlight の「ベータ版のフィードバックを送信」から報告してください(クラッシュログが自動で添付されます)。
 
         **Do not paste passwords, stream keys or server addresses you want to keep private.**
         **パスワード・ストリームキー・公開したくないサーバーアドレスは貼り付けないでください。**
@@ -14,7 +14,7 @@ body:
     id: version
     attributes:
       label: Ladiocast version (build) / バージョン(ビルド)
-      placeholder: "1.0.0-alpha.0 (1)"
+      placeholder: "1.0.0 (2325)"
     validations:
       required: true
   - type: input

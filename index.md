@@ -17,5 +17,5 @@ hero:
     - theme: alt
       text: ChangeLog
       link: /changelog
-  tagline: Release candidate testing is now open. Join through TestFlight.
+  tagline: Ladiocast 1.0.0 is available on the Mac App Store.
 ---

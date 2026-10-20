@@ -18,7 +18,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Guide', link: '/guide/' },
-          { text: 'RC Testing', link: '/testing' },
+          { text: 'Testing', link: '/testing' },
           { text: 'ChangeLog', link: '/changelog' },
           { text: 'Feedback', link: '/feedback' },
         ],
@@ -40,7 +40,7 @@ export default defineConfig({
           {
             text: 'Reference',
             items: [
-              { text: 'RC Testing', link: '/testing' },
+              { text: 'Testing', link: '/testing' },
               { text: 'Feedback', link: '/feedback' },
               { text: 'ChangeLog', link: '/changelog' },
               { text: 'Included libraries', link: '/licenses' },
@@ -62,7 +62,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'ガイド', link: '/ja/guide/' },
-          { text: 'RCテスト', link: '/ja/testing' },
+          { text: 'テスト', link: '/ja/testing' },
           { text: '変更履歴', link: '/ja/changelog' },
           { text: 'フィードバック', link: '/ja/feedback' },
         ],
@@ -84,7 +84,7 @@ export default defineConfig({
           {
             text: 'リファレンス',
             items: [
-              { text: 'RCテスト', link: '/ja/testing' },
+              { text: 'テスト', link: '/ja/testing' },
               { text: 'フィードバック', link: '/ja/feedback' },
               { text: '変更履歴', link: '/ja/changelog' },
               { text: '同梱ライブラリ', link: '/ja/licenses' },

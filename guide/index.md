@@ -1,6 +1,6 @@
 # What is Ladiocast?
 
-Ladiocast is a software running on Mac OS X to stream digital audio such as Internet radio program. It has the following features:
+Ladiocast is a software running on macOS to stream digital audio such as Internet radio program. It has the following features:
 
 - Supporting Icecast 2, SHOUTcast v1 and RTMP as audio source protocols.
 
@@ -12,11 +12,11 @@ Ladiocast is a software running on Mac OS X to stream digital audio such as Inte
 
 - SSL supported.
 
-- Universal Binary application running on Mac OS X 10.6 and later.
+- Universal Binary application running on macOS 13 and later.
 
 ## Notice when using the Ogg Opus encoding
 
-Currently it needs the system sample rate of Ladiocast to be 48000 (default 44100). The system sample rate is *not* the encoding sample rate on the streamer windows but that in the preferences panel. Also changing the values in the preferences panel needs Ladiocast to be restarted.
+Currently it needs the system sample rate of Ladiocast to be 48000 (the default). The system sample rate is *not* the encoding sample rate on the streamer windows but that in the preferences panel. Also changing the values in the preferences panel needs Ladiocast to be restarted.
 
 ## Notice when using the Ogg PCM encoding
 
