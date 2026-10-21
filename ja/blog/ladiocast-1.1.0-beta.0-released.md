@@ -7,7 +7,7 @@ date: 2026-10-21
 
 ![Join the LadioCast beta - TestFlight - Apple](/images/Join-the-LadioCast-beta-TestFlight-Apple.png)
 
-Ladiocast 1.1.0-beta.0 をリリースし、App Store TestFlight にて次のバージョンのテストを始めました。
+Ladiocast 1.1.0-beta.0 をリリースし、そのテストが App Store TestFlight にて始まりました。
 このテストに参加される方は
 https://ladiocast-docs.kawauso.com/ja/testing
 よりお進みください。
