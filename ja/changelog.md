@@ -2,6 +2,7 @@
 
 | バージョン | トピック |
 |:---|:---|
+| 1.1.0-beta.1 | Loopbackストリーマーの入力デバイス名を「Ladiocast Loopback」に変更 |
 | 1.1.0-beta.0 | Loopbackストリーマーを追加。サーバーへは送信せず、「Ladiocast Loopback Streamer」という入力デバイスとして、このMac上の他のアプリへ音声を渡す。Loopbackにできるストリーマーは1つだけ(macOS 14.2以降) |
 | 1.1.0-beta.0 | Loopbackストリーマーに必要な、システムオーディオ録音の使用目的の説明を追加 |
 | 1.0.0 | Mac App Storeでリリース |

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: October 21, 2026
+Last updated: October 22, 2026
 
 Ladiocast is provided by kawauso.com as a free app, at no cost, and is intended for use as is.
 
@@ -16,7 +16,7 @@ Ladiocast accesses the microphone and other audio input devices on your Mac, onl
 
 ## System audio recording (Loopback Streamer)
 
-When you select the Loopback Streamer, Ladiocast uses the system audio recording of macOS, only after you grant permission, in order to pass the audio you mix to other applications on your Mac through a virtual input device named "Ladiocast Loopback Streamer". Ladiocast captures only its own audio output for this purpose, not the audio of other applications. The audio stays on your Mac: Ladiocast does not record it to disk and does not send it to kawauso.com or any other third party. The applications that you choose to receive the audio are subject to their own privacy practices.
+When you select the Loopback Streamer, Ladiocast uses the system audio recording of macOS, only after you grant permission, in order to pass the audio you mix to other applications on your Mac through a virtual input device named "Ladiocast Loopback". Ladiocast captures only its own audio output for this purpose, not the audio of other applications. The audio stays on your Mac: Ladiocast does not record it to disk and does not send it to kawauso.com or any other third party. The applications that you choose to receive the audio are subject to their own privacy practices.
 
 ## Streaming destinations
 
