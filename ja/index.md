@@ -17,5 +17,5 @@ hero:
     - theme: alt
       text: 変更履歴
       link: /ja/changelog
-  tagline: Ladiocast 1.0.0 を Mac App Store で配信しています。1.1.0 のベータ版のテストを TestFlight で行っています。
+  tagline: Ladiocast 1.1.0 を Mac App Store で配信しています。
 ---
