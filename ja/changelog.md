@@ -2,6 +2,7 @@
 
 | バージョン | トピック |
 |:---|:---|
+| 1.1.0 | Mac App Storeでリリース |
 | 1.1.0-beta.2 | Ladiocast自身はシステムオーディオ録音の許可を求めないように変更。Loopbackストリーマーから音声を受け取るアプリのみ許可が必要。それに伴いループバックの入力デバイスが無音である時の警告を削除 |
 | 1.1.0-beta.1 | Loopbackストリーマーの入力デバイス名を「Ladiocast Loopback」に変更 |
 | 1.1.0-beta.0 | Loopbackストリーマーを追加。サーバーへは送信せず、「Ladiocast Loopback Streamer」という入力デバイスとして、このMac上の他のアプリへ音声を渡す。Loopbackにできるストリーマーは1つだけ(macOS 14.2以降) |

@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.1.0 | Released in the Mac App Store. |
 | 1.1.0-beta.2 | Ladiocast itself no longer asks for system audio recording: only the application which receives the audio from Loopback Streamer needs the permission. The alert about a silent loopback device was removed with it. |
 | 1.1.0-beta.1 | Renamed the input device of Loopback Streamer to "Ladiocast Loopback". |
 | 1.1.0-beta.0 | Added Loopback Streamer, which passes the audio to other applications on this Mac as an input device named "Ladiocast Loopback Streamer", instead of sending it to a server. Only one streamer can be Loopback at a time (macOS 14.2 and later). |

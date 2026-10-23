@@ -1,6 +1,6 @@
 # Testing
 
-Ladiocast 1.1.0 is in beta, with the new Loopback Streamer. See the [blog post](/blog/ladiocast-1.1.0-beta.2-released) for the changes to try. Ladiocast 1.0.0 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
+The beta testing of Ladiocast 1.1.0 has finished, and Ladiocast 1.1.0 is available on the Mac App Store. Thank you to everyone who helped to test it. No test is open right now. When the next test starts, it will be announced on the [blog](/blog/) and the instructions below will apply. A test version may have unfinished features, and you may run into bugs.
 
 ## Requirements
 
