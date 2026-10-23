@@ -5,7 +5,7 @@ date: 2026-10-13
 
 # Ladiocast 1.0.0-beta.0 リリース
 
-![Join the LadioCast beta - TestFlight - Apple](/images/Join-the-LadioCast-beta-TestFlight-Apple.png)
+![Join the Ladiocast beta - TestFlight - Apple](/images/Join-the-Ladiocast-beta-TestFlight-Apple.png)
 
 Ladiocast 1.0.0 を alpha.0 から beta.0 へバージョンアップし、App Store TestFlight にて引き続きテストを行っています。
 このテストに参加される方は

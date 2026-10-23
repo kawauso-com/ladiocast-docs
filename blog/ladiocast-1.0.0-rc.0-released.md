@@ -5,7 +5,7 @@ date: 2026-10-16
 
 # Ladiocast 1.0.0-rc.0 Released
 
-![Join the LadioCast beta - TestFlight - Apple](/images/Join-the-LadioCast-beta-TestFlight-Apple.png)
+![Join the Ladiocast beta - TestFlight - Apple](/images/Join-the-Ladiocast-beta-TestFlight-Apple.png)
 
 I have upgraded Ladiocast 1.0.0 from beta.0 to rc.0, the release candidate, and the test continues on App Store TestFlight.
 If you would like to take part in the test, please proceed from
