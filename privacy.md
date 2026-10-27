@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: October 23, 2026
+Last updated: October 27, 2026
 
 Ladiocast is provided by kawauso.com as a free app, at no cost, and is intended for use as is.
 
@@ -29,6 +29,10 @@ Ladiocast does not collect log data, analytics or crash reports, and contains no
 ## Feedback
 
 If you send feedback through GitHub Issues, your post and your GitHub account name are public. Please do not include passwords, stream keys or server addresses you want to keep private. If you write to me by email, I use your message and address only to reply to you.
+
+## Blog comments
+
+The comment section of the blog posts on this site is provided by [giscus](https://giscus.app) and stored in GitHub Discussions. When a post is displayed, your browser loads the comment section from giscus.app and GitHub. Signing in with GitHub is required to post. Your comment and your GitHub account name are public. Please do not include passwords, stream keys or server addresses you want to keep private. This applies to the website only; the Ladiocast app does not connect to them. GitHub and giscus handle your data according to their own privacy practices.
 
 ## Changes to this Privacy Policy
 
