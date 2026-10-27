@@ -1,5 +1,5 @@
 # ブログ
 
-## Ladiocast Development Notes
+## Ladiocast 開発記
 
 <BlogList />
