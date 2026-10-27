@@ -121,7 +121,7 @@ function generateSidebar(dirPath: string, basePath: string) {
   const files = fs.readdirSync(dirPath)
   const items = [] as { text: string; link: string; date: Date }[]
   for (const file of files) {
-    // _で始まらないMarkdownファイルで index.md 以外を対象にする
+    // only Markdown files that don't start with _ and aren't index.md
     if (file.startsWith('_') || !file.endsWith('.md') || file == 'index.md') {
       continue
     }
@@ -129,15 +129,15 @@ function generateSidebar(dirPath: string, basePath: string) {
     const fullPath = path.join(dirPath, file)
     const fileContent = fs.readFileSync(fullPath, 'utf-8')
 
-    // gray-matterでフロントマターと本文をパース
+    // parse the frontmatter and body with gray-matter
     const { data } = matter(fileContent)
 
-    // 拡張子を除いたファイル名をリンク用に使用
+    // the file name without its extension is used for the link
     const fileNameWithoutExt = path.basename(file, '.md')
 
-    // フロントマターに title または date がない場合のフォールバック（デフォルト値）
+    // fallbacks (default values) for when the frontmatter has no title or date
     const text = `${data.title ?? fileNameWithoutExt}`
-    const date = data.date ? new Date(data.date) : new Date(0) // 日付がないものは最古扱い
+    const date = data.date ? new Date(data.date) : new Date(0) // a post without a date is treated as the oldest
 
     items.push({
       text,
@@ -146,7 +146,7 @@ function generateSidebar(dirPath: string, basePath: string) {
     })
   }
   return items
-    .sort((a, b) => a.date.getTime() - b.date.getTime()) // date（日付）でソート：古い順（昇順）
-    .map(({ text, link }) => ({ text, link })) // VitePressが求める形式（textとlinkのみ）に整形
-    .reverse() // 逆順にして新しい順（降順）にする
+    .sort((a, b) => a.date.getTime() - b.date.getTime()) // sort by date, oldest first (ascending)
+    .map(({ text, link }) => ({ text, link })) // shape into the form VitePress expects (text and link only)
+    .reverse() // reverse to get newest first (descending)
 }
