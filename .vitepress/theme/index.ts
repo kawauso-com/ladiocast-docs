@@ -1,6 +1,7 @@
+import type { Theme } from 'vitepress'
+
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import type { Theme } from 'vitepress'
 import BlogList from './BlogList.vue'
 import Comments from './Comments.vue'
 
