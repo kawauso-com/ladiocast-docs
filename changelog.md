@@ -2,6 +2,11 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.1.1-beta.0 | Icecast and Shoutcast streamers now always send the song metadata in UTF-8, keep streaming when updating the song title fails, and stop reconnecting right away when disconnected. |
+| 1.1.1-beta.0 | RTMP Streamer now sends each AAC packet or MP3 frame in its own tag, timestamped from the amount of audio sent instead of the clock. |
+| 1.1.1-beta.0 | The quality level of Ogg Opus in VBR mode now takes effect. |
+| 1.1.1-beta.0 | AAC settings the encoder does not support, such as a system sample rate above 48000 Hz, now show the reason instead of an internal error. |
+| 1.1.1-beta.0 | Problems such as a buffer overrun when the buffer size of an input device becomes larger, device switches that were sometimes not applied, memory leaks when connecting again, and the Loopback device left behind when Ladiocast is ended by the kill command are fixed. |
 | 1.1.0 | Released in the Mac App Store. |
 | 1.1.0-beta.2 | Ladiocast itself no longer asks for system audio recording: only the application which receives the audio from Loopback Streamer needs the permission. The alert about a silent loopback device was removed with it. |
 | 1.1.0-beta.1 | Renamed the input device of Loopback Streamer to "Ladiocast Loopback". |
