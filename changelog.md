@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.1.1-beta.1 | Ogg streams from Icecast Streamer no longer stop reaching listeners after auto reconnecting. |
 | 1.1.1-beta.0 | Icecast and Shoutcast streamers now always send the song metadata in UTF-8, keep streaming when updating the song title fails, and stop reconnecting right away when disconnected. |
 | 1.1.1-beta.0 | RTMP Streamer now sends each AAC packet or MP3 frame in its own tag, timestamped from the amount of audio sent instead of the clock. |
 | 1.1.1-beta.0 | The quality level of Ogg Opus in VBR mode now takes effect. |

@@ -1,6 +1,6 @@
 # Testing
 
-Ladiocast 1.1.1 is in beta, with fixes for the streamers and the audio devices. See the [blog post](/blog/ladiocast-1.1.1-beta.0-released) for the changes to try. Ladiocast 1.1.0 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
+Ladiocast 1.1.1 is in beta, with fixes for the streamers and the audio devices. See the [blog post](/blog/ladiocast-1.1.1-beta.1-released) for the changes to try. Ladiocast 1.1.0 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
 
 ## Requirements
 
