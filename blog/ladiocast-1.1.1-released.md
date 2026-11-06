@@ -5,7 +5,7 @@ date: 2026-11-07
 
 # Ladiocast 1.1.1 Released
 
-![Ladiocast 1.0.0 released in MAS](/images/Ladiocast-in-MAS.png)
+![Ladiocast released in MAS](/images/Ladiocast-in-MAS.png)
 
 Ladiocast 1.1.1 is now available in the [Mac App Store](https://apps.apple.com/app/ladiocast/id411213048). Thank you to everyone who took part in the TestFlight test of 1.1.1-beta.0, 1.1.1-beta.1 and 1.1.1-beta.2.
 

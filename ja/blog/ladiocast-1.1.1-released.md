@@ -5,7 +5,7 @@ date: 2026-11-07
 
 # Ladiocast 1.1.1 リリース
 
-![Ladiocast 1.0.0 released in MAS](/images/Ladiocast-in-MAS.png)
+![Ladiocast released in MAS](/images/Ladiocast-in-MAS.png)
 
 Ladiocast 1.1.1 を [Mac App Store](https://apps.apple.com/app/ladiocast/id411213048) でリリースしました。1.1.1-beta.0、1.1.1-beta.1、1.1.1-beta.2 の TestFlight でのテストにご参加いただいた皆さま、ありがとうございました。
 
