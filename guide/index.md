@@ -8,7 +8,7 @@ Ladiocast is a software running on macOS to stream digital audio such as Interne
 
 - Loopback Streamer, which passes the audio to other applications on the same Mac as an audio input device (macOS 14.2 and later).
 
-- Supporting Ogg Vorbis, MP3, AAC, HE-AAC and Ogg Opus encoding formats.
+- Supporting Ogg Vorbis, MP3, AAC, HE-AAC, Ogg Opus and Ogg PCM encoding formats.
 
 - Equipped a 4-in/4-out/4-bus audio mixer, where you can route sound from input devices to output devices flexibly.
 
