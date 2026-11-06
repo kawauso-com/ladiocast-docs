@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.1.1 | Released in the Mac App Store. |
 | 1.1.1-beta.2 | The first 0.8 seconds of every input device are now discarded each time it starts, so the noise from the audio jack of a Mac no longer comes through. |
 | 1.1.1-beta.1 | Ogg streams from Icecast Streamer no longer stop reaching listeners after auto-reconnecting. |
 | 1.1.1-beta.0 | Icecast and Shoutcast streamers now always send the song metadata in UTF-8, keep streaming when updating the song title fails, and stop reconnecting right away when disconnected. |
