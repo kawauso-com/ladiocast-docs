@@ -17,5 +17,5 @@ hero:
     - theme: alt
       text: ChangeLog
       link: /changelog
-  tagline: Ladiocast 1.1.1 is available on the Mac App Store.
+  tagline: Ladiocast 1.1.1 is available on the Mac App Store. Beta testing of 1.2.0 is open through TestFlight.
 ---

@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.2.0-beta.0 | RTMP Streamer can now send a still image as H.264 video along with the audio. Choose the image, video quality and resolution (720p or 1080p) in the new Still tab. |
 | 1.1.1 | Released in the Mac App Store. |
 | 1.1.1-beta.2 | The first 0.8 seconds of every input device are now discarded each time it starts, so the noise from the audio jack of a Mac no longer comes through. |
 | 1.1.1-beta.1 | Ogg streams from Icecast Streamer no longer stop reaching listeners after auto-reconnecting. |
