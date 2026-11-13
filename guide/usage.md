@@ -16,7 +16,7 @@ The device appears when the streamer is selected, and disappears when another ty
 
 ### Notice
 
-macOS 14.2 or later is required. On earlier versions, “Loopback” is not in the streamer menu, and a streamer saved as Loopback (including one read from a configuration file) becomes N/A.
+macOS 14.2 or later is required. On earlier versions, “Loopback” is not in the streamer menu, and a streamer saved as Loopback (including one read from a configuration file) becomes “None”.
 
 The device cannot be the default input of the system, so it is not listed in “System Settings” > “Sound” > “Input”. Choose it in the audio input setting of the receiving application instead. Audio MIDI Setup lists it.
 

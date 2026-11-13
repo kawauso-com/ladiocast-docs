@@ -1,6 +1,6 @@
 # Testing
 
-Ladiocast 1.2.0 is in beta. RTMP Streamer can now send a still image as video along with the audio. See the [blog post](/blog/ladiocast-1.2.0-beta.0-released) for the changes to try. Ladiocast 1.1.1 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
+Ladiocast 1.2.0 is in beta. RTMP Streamer can now send a still image as video along with the audio, and AppleScript can now read and connect each streamer. See the [blog post](/blog/ladiocast-1.2.0-beta.1-released) for the changes to try. Ladiocast 1.1.1 stays available on the Mac App Store. A test version may have unfinished features, and you may run into bugs. Thank you for helping to test it.
 
 ## Requirements
 
