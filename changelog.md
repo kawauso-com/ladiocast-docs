@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.2.0-beta.2 | Ogg Vorbis streams now end with the last of the audio and an end-of-stream page when the streamer disconnects, and Ogg Opus and Ogg PCM streams no longer send "(null)" for a stream name, genre, description or URL that is not set. |
 | 1.2.0-beta.1 | AppleScript can now read each streamer as a "streamer" element, with its kind, status, sent bytes, elapsed time and last error. The connect and disconnect commands take these elements, such as "connect every streamer", as well as the number of a streamer as before. |
 | 1.2.0-beta.1 | The connect and disconnect commands of AppleScript now return when the streamers have connected or disconnected, and return the error to the script instead of showing an alert when connecting fails. The commands and the Connect button are handled one at a time. |
 | 1.2.0-beta.1 | The alert of a connection error no longer stops the app: each streamer shows its latest alert over its window, and closes it when it starts connecting again. |
