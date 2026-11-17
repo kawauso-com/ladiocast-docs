@@ -2,6 +2,7 @@
 
 | Version | Topic |
 |:---|:---|
+| 1.2.0-beta.4 | Icecast, Shoutcast and RTMP streamers now connect again once, 5 seconds after a connection ends with an error, and show the alert only when that fails. The Connect button stays on while waiting, and clicking it gives the wait up. A streamer with an event handler for "Disconnected with error" calls the handler instead, as before. Icecast and Shoutcast streamers no longer reconnect by themselves right away. When the Connect button is clicked again while connecting, only the last click shows how it ends. |
 | 1.2.0-beta.3 | Icecast and Shoutcast streamers now send the Song Info to the server on a connection of its own, so the audio goes on while the server answers. Icecast Streamer no longer stays connecting to Icecast 2.5, and the Song Info set before connecting now shows on Ogg Vorbis streams as well. |
 | 1.2.0-beta.2 | Ogg Vorbis streams now end with the last of the audio and an end-of-stream page when the streamer disconnects, and Ogg Opus and Ogg PCM streams no longer send "(null)" for a stream name, genre, description or URL that is not set. |
 | 1.2.0-beta.1 | AppleScript can now read each streamer as a "streamer" element, with its kind, status, sent bytes, elapsed time and last error. The connect and disconnect commands take these elements, such as "connect every streamer", as well as the number of a streamer as before. |
