@@ -24,6 +24,10 @@ Before posting, please see [In error cases](/guide/troubleshooting) for how to c
 Issues are public. Do not paste passwords, stream keys or server addresses you want to keep private.
 :::
 
+## Still image on streaming services
+
+The still image of RTMP Streamer has been seen on YouTube. If you send it to another service, such as Twitch or TwitCasting, or to your own server, please tell me whether the picture shows, also when it works. The video comes from the H.264 encoder of macOS, which differs between Macs, so please include your Mac model (Intel or Apple silicon), the macOS version, the Video Quality and Video Resolution, and the name of the service. An issue or an email is fine.
+
 ## Email
 
 If you do not use GitHub, you can write to

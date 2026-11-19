@@ -26,6 +26,16 @@ Loopback Streamer uses the system audio recording of macOS. The application whic
 
 If Ladiocast quits abnormally, the device remains, even after the Mac restarts, until Ladiocast is launched next time. If you no longer use Ladiocast, select the device in Audio MIDI Setup and delete it with the − button.
 
+## Still image (RTMP Streamer)
+
+RTMP Streamer can send a still image as H.264 video along with the audio, for streaming services that need a video track. Open the “Still” tab of the RTMP streamer window, and choose an image with “Source Image” > “Choose Image…”, or drag an image file from Finder onto the image. The image is fitted into a 16:9 frame, on black. Choose “Video Quality” (Low, Medium or High) and “Video Resolution” (720p or 1080p); “Video Bit Rate” shows what the video adds to the audio. “Source Image” > “None” goes back to audio only.
+
+While the image is being read, a spinner runs in place of “Video Bit Rate” and the “Connect” button is dimmed; the `connect` command of AppleScript returns an error then. The image, the quality and the resolution cannot be changed while connected; the controls are dimmed until you disconnect.
+
+Ladiocast keeps a converted copy of the image with the settings of the streamer, so the original file can be moved or deleted afterwards. A configuration file saved with “File” > “Save As…” includes the image; keep this in mind when you share such a file.
+
+If you use it with a service other than YouTube, please tell me how it works; see [Feedback](/feedback#still-image-on-streaming-services).
+
 ## The audio mixer
 
 ### The diagram
